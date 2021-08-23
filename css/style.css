@@ -1,0 +1,51 @@
+.download_explain {
+    right: 55%;
+    top: 5%;
+}
+.download_explain button {
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+#myProgress {
+    width: 100%;
+    background-color: rgb(188, 196, 184);
+  }
+  
+#myBar {
+width: 1%;
+height: 10px;
+background-color: green;
+}
+.price{
+    width: 55px;
+    height: 20px;
+    font-size: large;
+}
+.price_range_info{
+    display: inline-block;
+    font-size: large;
+    height: 30px;
+}
+#set_control{
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;	   
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;	
+    padding: 10px 39px 9px;
+    font-size: 18px;
+    background-color: green;
+	
+}

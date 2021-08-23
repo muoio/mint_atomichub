@@ -1,0 +1,29 @@
+{
+    "name": "Mint Atomichub",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup":"./popup.html"
+      },
+    "version": "1.0",
+    "description": "Auto buy Atomichub items",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["https://*.atomichub.io/*","https://hocmai.vn/*"],
+          "css": ["css/style.css"],
+          "js":["js/jquery-2.1.3.js"]
+        }
+      ],
+    "permissions": [
+      "tabs",
+      "*://*.atomichub.io/*",
+      "storage",
+      "activeTab",
+      "declarativeContent",
+      "bookmarks",
+      "*://hocmai.vn/*",
+      "alarms"
+    ],
+    "web_accessible_resources": ["js/jquery-2.1.3.js"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
+}
