@@ -26,6 +26,11 @@ background-color: green;
     display: inline-block;
     font-size: large;
     height: 30px;
+    color:indigo;
+}
+#text1{
+    font-size: medium;
+    color:darkslategrey;
 }
 #set_control{
     border-style: solid;
@@ -44,8 +49,23 @@ background-color: green;
     white-space: nowrap;	
     font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
     font-weight: 700;	
-    padding: 10px 39px 9px;
+    padding: 10px 49px 9px;
     font-size: 18px;
     background-color: green;
 	
+}
+.reload_time{
+    display: inline-block;
+    width: 210px;
+    height: 30px;
+    font-size: medium;
+    color:darkslategrey;
+}
+#reload_time{
+    width: 45px;
+    height: 17px;
+    font-size: medium;
+}
+#button1{
+    display: none;
 }
