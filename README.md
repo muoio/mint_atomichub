@@ -8,4 +8,5 @@ How to use
 3. Click "Load Unpacked" to load the extension
 4. Go to atomichub marketplace
 5. Sort items by lowest prices
-6. In extension, click "Enable"
+6. In extension, fill "reload time", "min" price, "max" price as you want
+7. Click "Enable"
