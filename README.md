@@ -1,5 +1,5 @@
 # mint_atomichub
-A chrome extension for minting cheapest items in atmichub.io
+A chrome extension for minting cheapest items in atomichub.io
 
 How to use
 
